@@ -1,4 +1,22 @@
-# CFB Fantasy Logo Upload Guide
+# CFB Fantasy
+
+A College Football Fantasy News Aggregator that displays news from various sources.
+
+## Features
+- Real-time news updates
+- College team logos
+- User authentication
+- Responsive design
+
+## Setup
+1. Clone the repository
+2. Install dependencies
+3. Start the development server
+
+## Deployment
+This project is deployed using GitHub Pages and Heroku.
+
+// Triggering new deployment
 
 ## Prerequisites
 1. AWS CLI installed and configured
