@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CFB Fantasy - College Football Fantasy League</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- BxSlider CSS -->
+    <link rel="stylesheet" href="https://cdn.bxslider.com/4.2.12/jquery.bxslider.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="logo">
+                <h1>CFB Fantasy</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">My Team</a></li>
+                <li><a href="#">League</a></li>
+                <li><a href="#">Players</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+            <div class="user-section">
+                <a href="#" class="login-btn">Sign In</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="slider">
+                <div>
+                    <img src="images/nebraska.jpg" alt="Nebraska">
+                </div>
+                <div>
+                    <img src="images/michigan.jpg" alt="Michigan">
+                </div>
+                <div>
+                    <img src="images/ohio_state.jpg" alt="Ohio State">
+                </div>
+                <div>
+                    <img src="images/oregon.jpg" alt="Oregon">
+                </div>
+            </div>
+            <div class="hero-content">
+                <h2>Welcome to CFB Fantasy</h2>
+                <p>Your Ultimate College Football Fantasy Experience</p>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <i class="fas fa-chart-bar"></i>
+                <h3>Career Statistics</h3>
+                <p>Track and analyze complete college career stats for every player</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-users"></i>
+                <h3>Private Leagues</h3>
+                <p>Create or join leagues with friends</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Live Scoring</h3>
+                <p>Real-time updates and statistics</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-gamepad"></i>
+                <h3>Mock Drafts</h3>
+                <p>Mock drafts to help you build your perfect team</p>
+            </div>
+        </section>
+
+        <section class="news-updates">
+            <h2>Latest College Football News from r/CFB</h2>
+            <div class="news-grid" id="reddit-news">
+                <!-- Reddit posts will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <section class="top-players">
+            <h2>Top Performers</h2>
+            <div class="player-grid">
+                <div class="player-card">
+                    <img src="https://via.placeholder.com/150" alt="Player 1">
+                    <h4>Player Name</h4>
+                    <p>Position • Team</p>
+                    <div class="stats">
+                        <span>Points: 25.4</span>
+                        <span>Rank: #1</span>
+                    </div>
+                </div>
+                <!-- Add more player cards as needed -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About CFB Fantasy</h3>
+                <p>Your platform for college football fantasy sports.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Report a Bug</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/wyatt-wooden-76352022a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>CFB Fantasy</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- BxSlider JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script src="js/reddit.js"></script>
+</body>
+</html>
