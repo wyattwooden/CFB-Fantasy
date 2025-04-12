@@ -27,7 +27,12 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          path: '.'
+          path: |
+            index.html
+            news.html
+            css/
+            js/
+            images/
           name: github-pages
 
   deploy:
