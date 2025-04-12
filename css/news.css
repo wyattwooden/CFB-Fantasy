@@ -1,0 +1,16 @@
+main {
+    margin-top: 80px; /* Account for fixed header */
+}
+
+.news-updates {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.news-updates h2 {
+    color: #1a237e;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+} 
